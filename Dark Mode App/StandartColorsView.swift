@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct StandardColorsView: View {
-    let standardColors: [Color] = [
-        .black,
+    private let standardColors = [
+        Color.black,
         .white,
         .primary,
         .secondary,
@@ -40,9 +40,7 @@ struct StandardColorsView: View {
 
 struct StandardColorsView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            StandardColorsView()
-                .preferredColorScheme(.dark)
-        }
+        StandardColorsView()
+            .preferredColorScheme(.dark)
     }
 }

@@ -9,19 +9,17 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
+    @State private var region = MKCoordinateRegion(
+        center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275),
+        span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
+    )
     var body: some View {
-        VStack {
-            Text("London")
-                .font(.largeTitle)
-            Text("MapKit")
-                .font(.title)
-            Map(coordinateRegion: .constant(MKCoordinateRegion(
-                center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275),
-                span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)))
-            )
-                .frame(height: 250)
-                .cornerRadius(20)
-                .padding()
+        NavigationView {
+            ZStack {
+                Map(coordinateRegion: $region)
+            }
+            .navigationTitle("MapKit")
+            .ignoresSafeArea()
         }
     }
 }
