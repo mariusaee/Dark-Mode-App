@@ -13,8 +13,8 @@
 		29D1BC3527354C9D0050541F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D1BC3427354C9D0050541F /* Preview Assets.xcassets */; };
 		29D1BC3C273568560050541F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC3B273568560050541F /* ListView.swift */; };
 		29D1BC4227357DF90050541F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC4127357DF90050541F /* MapView.swift */; };
-		29D1BC462735906B0050541F /* StandartColorsView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC452735906B0050541F /* StandartColorsView.swift.swift */; };
-		29D1BC4A2736926F0050541F /* RegistrationView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC492736926F0050541F /* RegistrationView.swift.swift */; };
+		29D1BC462735906B0050541F /* StandartColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC452735906B0050541F /* StandartColorsView.swift */; };
+		29D1BC4A2736926F0050541F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC492736926F0050541F /* RegistrationView.swift */; };
 		29D1BC4C27369D740050541F /* SkyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC4B27369D740050541F /* SkyView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +26,8 @@
 		29D1BC3427354C9D0050541F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29D1BC3B273568560050541F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		29D1BC4127357DF90050541F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		29D1BC452735906B0050541F /* StandartColorsView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartColorsView.swift.swift; sourceTree = "<group>"; };
-		29D1BC492736926F0050541F /* RegistrationView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift.swift; sourceTree = "<group>"; };
+		29D1BC452735906B0050541F /* StandartColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartColorsView.swift; sourceTree = "<group>"; };
+		29D1BC492736926F0050541F /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		29D1BC4B27369D740050541F /* SkyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,9 +64,9 @@
 				29D1BC2D27354C9B0050541F /* DarkModeApp.swift */,
 				29D1BC2F27354C9B0050541F /* ContentView.swift */,
 				29D1BC3B273568560050541F /* ListView.swift */,
-				29D1BC492736926F0050541F /* RegistrationView.swift.swift */,
+				29D1BC492736926F0050541F /* RegistrationView.swift */,
 				29D1BC4127357DF90050541F /* MapView.swift */,
-				29D1BC452735906B0050541F /* StandartColorsView.swift.swift */,
+				29D1BC452735906B0050541F /* StandartColorsView.swift */,
 				29D1BC4B27369D740050541F /* SkyView.swift */,
 				29D1BC3127354C9D0050541F /* Assets.xcassets */,
 				29D1BC3327354C9D0050541F /* Preview Content */,
@@ -175,9 +175,9 @@
 			files = (
 				29D1BC3027354C9B0050541F /* ContentView.swift in Sources */,
 				29D1BC4C27369D740050541F /* SkyView.swift in Sources */,
-				29D1BC462735906B0050541F /* StandartColorsView.swift.swift in Sources */,
+				29D1BC462735906B0050541F /* StandartColorsView.swift in Sources */,
 				29D1BC4227357DF90050541F /* MapView.swift in Sources */,
-				29D1BC4A2736926F0050541F /* RegistrationView.swift.swift in Sources */,
+				29D1BC4A2736926F0050541F /* RegistrationView.swift in Sources */,
 				29D1BC2E27354C9B0050541F /* DarkModeApp.swift in Sources */,
 				29D1BC3C273568560050541F /* ListView.swift in Sources */,
 			);
