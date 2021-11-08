@@ -29,8 +29,11 @@ struct RegistrationView: View {
                 .textFieldStyle(.roundedBorder)
                 .font(.title)
 
-            DatePicker("Date of birth", selection: $date, displayedComponents: [.date])
-                .font(.title)
+            DatePicker(
+                "Date of birth",
+                selection: $date,
+                displayedComponents: [.date]
+            ).font(.title)
         }
         .padding()
     }

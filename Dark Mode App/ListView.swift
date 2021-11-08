@@ -13,7 +13,8 @@ struct ListView: View {
             List(1...10, id: \.self) { number in
                 NavigationLink(destination: Text("\(number)").font(.largeTitle)) {
                     Text("\(number)")
-                }.navigationTitle("List View")
+                }
+                .navigationTitle("List View")
             }
         }
     }
