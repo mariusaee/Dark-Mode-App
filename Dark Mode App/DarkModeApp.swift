@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Dark_Mode_AppApp: App {
+struct DarkModeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

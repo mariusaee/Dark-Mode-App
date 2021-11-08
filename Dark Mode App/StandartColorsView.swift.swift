@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct StandardColorsView: View {
-    let standardColors: [Color] = [.black, .white, .primary, .secondary, .blue, .brown, .cyan, .gray, .green, .indigo, .mint, .orange, .pink, .purple, .red, .teal, .yellow]
-    
+    let standardColors: [Color] = [
+        .black,
+        .white,
+        .primary,
+        .secondary,
+        .blue,
+        .brown,
+        .cyan,
+        .gray,
+        .green,
+        .indigo,
+        .mint,
+        .orange,
+        .pink,
+        .purple,
+        .red,
+        .teal,
+        .yellow
+    ]
+
     var body: some View {
         List(standardColors, id: \.self) { color in
             Text(color.description)

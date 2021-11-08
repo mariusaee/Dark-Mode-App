@@ -15,7 +15,7 @@ struct ContentView: View {
                     Text("List")
                     Image(systemName: "list.number")
                 }
-            RegistrationView_swift()
+            RegistrationView()
                 .tabItem {
                     Text("Registration")
                     Image(systemName: "person.crop.circle")

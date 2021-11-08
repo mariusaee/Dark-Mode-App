@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29D1BC2E27354C9B0050541F /* Dark_Mode_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC2D27354C9B0050541F /* Dark_Mode_AppApp.swift */; };
+		29D1BC2E27354C9B0050541F /* DarkModeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC2D27354C9B0050541F /* DarkModeApp.swift */; };
 		29D1BC3027354C9B0050541F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1BC2F27354C9B0050541F /* ContentView.swift */; };
 		29D1BC3227354C9D0050541F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D1BC3127354C9D0050541F /* Assets.xcassets */; };
 		29D1BC3527354C9D0050541F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D1BC3427354C9D0050541F /* Preview Assets.xcassets */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		29D1BC2A27354C9B0050541F /* Dark Mode App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Mode App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29D1BC2D27354C9B0050541F /* Dark_Mode_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dark_Mode_AppApp.swift; sourceTree = "<group>"; };
+		29D1BC2D27354C9B0050541F /* DarkModeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeApp.swift; sourceTree = "<group>"; };
 		29D1BC2F27354C9B0050541F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29D1BC3127354C9D0050541F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29D1BC3427354C9D0050541F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		29D1BC2C27354C9B0050541F /* Dark Mode App */ = {
 			isa = PBXGroup;
 			children = (
-				29D1BC2D27354C9B0050541F /* Dark_Mode_AppApp.swift */,
+				29D1BC2D27354C9B0050541F /* DarkModeApp.swift */,
 				29D1BC2F27354C9B0050541F /* ContentView.swift */,
 				29D1BC3B273568560050541F /* ListView.swift */,
 				29D1BC492736926F0050541F /* RegistrationView.swift.swift */,
@@ -92,6 +92,7 @@
 				29D1BC2627354C9B0050541F /* Sources */,
 				29D1BC2727354C9B0050541F /* Frameworks */,
 				29D1BC2827354C9B0050541F /* Resources */,
+				29692DCF27393102008A521C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -147,6 +148,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29692DCF27393102008A521C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from <https://github.com/realm/SwiftLint>\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		29D1BC2627354C9B0050541F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -157,7 +178,7 @@
 				29D1BC462735906B0050541F /* StandartColorsView.swift.swift in Sources */,
 				29D1BC4227357DF90050541F /* MapView.swift in Sources */,
 				29D1BC4A2736926F0050541F /* RegistrationView.swift.swift in Sources */,
-				29D1BC2E27354C9B0050541F /* Dark_Mode_AppApp.swift in Sources */,
+				29D1BC2E27354C9B0050541F /* DarkModeApp.swift in Sources */,
 				29D1BC3C273568560050541F /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

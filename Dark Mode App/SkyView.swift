@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SkyView: View {
     @Environment(\.colorScheme) var colorScheme
-    
+
     var body: some View {
         ZStack {
             Color("Sky")
