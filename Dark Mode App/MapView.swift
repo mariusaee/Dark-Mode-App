@@ -15,11 +15,9 @@ struct MapView: View {
     )
     var body: some View {
         NavigationView {
-            ZStack {
-                Map(coordinateRegion: $region)
-            }
-            .navigationTitle("MapKit")
-            .ignoresSafeArea()
+            Map(coordinateRegion: $region)
+                .navigationTitle("MapKit")
+                .edgesIgnoringSafeArea(.top)
         }
     }
 }

@@ -13,7 +13,7 @@ struct SkyView: View {
     var body: some View {
         ZStack {
             Color("Sky")
-                .ignoresSafeArea()
+                .edgesIgnoringSafeArea(.top)
             VStack {
                 Image(systemName: colorScheme == .light ? "sun.max.fill" : "moon.fill")
                     .resizable()
